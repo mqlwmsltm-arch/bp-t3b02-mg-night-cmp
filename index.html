@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>비주류 문화 지식 저널 및 아카이브</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #0f172a;
+      --accent-color: #2563eb;
+      --muted-color: #64748b;
+      --border-color: #e2e8f0;
+      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-swiss);
+      line-height: 1.8;
+      letter-spacing: -0.01em;
+      padding: 0 24px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      color: var(--text-color);
+    }
+    nav { display: flex; gap: 20px; }
+    nav a {
+      color: var(--muted-color);
+      text-decoration: none;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    nav a:hover { color: var(--accent-color); }
+    main { padding-bottom: 60px; }
+    .meta-tag {
+      font-size: 0.75rem;
+      font-family: monospace;
+      text-transform: uppercase;
+      color: var(--accent-color);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      color: var(--text-color);
+      margin-bottom: 32px;
+    }
+    .content {
+      font-size: 1.05rem;
+      color: var(--text-color);
+      margin-bottom: 48px;
+      font-weight: 400;
+    }
+    .content p { margin-bottom: 20px; }
+    .juice-link {
+      color: var(--accent-color);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent-color);
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .juice-link:hover {
+      background-color: rgba(37, 99, 235, 0.05);
+    }
+    .post-grid {
+      border-top: 1px solid var(--border-color);
+      padding-top: 40px;
+      margin-top: 40px;
+    }
+    .grid-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted-color);
+      margin-bottom: 24px;
+    }
+    .posts-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .post-card {
+      border: 1px solid var(--border-color);
+      padding: 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text-color);
+      transition: all 0.2s ease;
+    }
+    .post-card:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-2px);
+    }
+    .post-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .post-card p {
+      font-size: 0.9rem;
+      color: var(--muted-color);
+      font-weight: 300;
+    }
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 24px;
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted-color);
+    }
+    footer a { color: var(--muted-color); text-decoration: none; }
+    footer a:hover { color: var(--accent-color); }
+    @media(max-width: 768px) {
+      header { flex-direction: column; align-items: flex-start; gap: 16px; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="logo">KR.GEEK</a>
+      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+    </header>
+    <main>
+      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
+      <h1>비주류 문화 지식 저널 및 아카이브</h1>
+      <div class="content">
+        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
+      </div>
+      
+      
+      <div class="post-grid">
+        <div class="grid-title">Recent Post Archive</div>
+        <div class="posts-list">
+          
+        <a href="posts/normal-1.html" class="post-card">
+          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
+          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
+        </a>
+      
+
+        <a href="posts/normal-2.html" class="post-card">
+          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
+          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
+        </a>
+      
+
+        <a href="posts/normal-3.html" class="post-card">
+          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
+          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
+        </a>
+      
+
+        <a href="posts/juice-1.html" class="post-card">
+          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
+          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
+        </a>
+      
+
+        <a href="posts/juice-2.html" class="post-card">
+          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
+          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
+        </a>
+      
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
+      <div>
+        <a href="sitemap.xml">SITEMAP</a> | 
+        <a href="#">PRIVACY</a> | 
+        <a href="#">DISCLAIMER</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
