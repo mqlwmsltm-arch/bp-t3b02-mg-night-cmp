@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity 080171d7f4985937</metadata>
-  <rect width="64" height="64" rx="9" fill="hsl(249 53% 28%)"/>
-  <path d="M39 0h25v64H25Z" fill="hsl(50 83% 71%)" opacity="0.82"/>
-  <g transform="rotate(275 32 32)" opacity="0.42"><path d="M14 43 32 13l18 30Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">MN</text>
+  <title>마곡 유흥 비교</title>
+  <rect width="64" height="64" rx="17" fill="hsl(249 53% 24%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(57 68% 63%)" opacity="0.16"/>
+  <g transform="rotate(270 32 32)"><rect x="15" y="15" width="28" height="28" rx="6" fill="none" stroke="hsl(249 24% 96%)" stroke-width="6"/><rect x="25" y="25" width="24" height="24" rx="6" fill="hsl(57 68% 63%)"/></g>
 </svg>
